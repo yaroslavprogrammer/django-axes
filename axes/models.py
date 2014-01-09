@@ -82,7 +82,7 @@ class AccessAttempt(CommonAccess):
         return self.failures_since_start
 
     def __unicode__(self):
-        return self.attempt_time.strftime("%A, %d. %B %Y %I:%M%p")
+        return self.attempt_time.strftime("%d.%m.%Y %I:%M")
 
 
 class AccessLog(CommonAccess):
@@ -113,4 +113,4 @@ class AccessLog(CommonAccess):
     def __unicode__(self):
         return u'%(user)s @ %(attempt)s' % \
             dict(user=self.username,
-                 attempt=self.attempt_time.strftime("%A, %d. %B %Y %I:%M%p"))
+                 attempt=self.attempt_time.strftime("%d.%m.%Y %I:%M"))
