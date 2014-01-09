@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-05 21:27+0200\n"
+"POT-Creation-Date: 2014-01-09 23:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,11 +95,6 @@ msgstr "попытка войти"
 msgid "access attempts"
 msgstr "попытки войти"
 
-#: models.py:85
-#, python-format
-msgid "Attempted Access: %s"
-msgstr "Попытка входа: %s"
-
 #: models.py:92
 msgid "logout time"
 msgstr "время выхода"
@@ -111,8 +106,3 @@ msgstr "история входа"
 #: models.py:97
 msgid "access logs"
 msgstr "истории входа"
-
-#: models.py:114
-#, python-format
-msgid "Access Log for %(user)s @ %(attempt)s"
-msgstr "История входа для %(user)s @ %(attempt)s"
